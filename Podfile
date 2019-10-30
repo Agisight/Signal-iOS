@@ -1,6 +1,8 @@
 platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
+
+
 use_frameworks!
 
 def shared_pods
@@ -8,6 +10,8 @@ def shared_pods
   ###
   # OWS Pods
   ###
+
+  pod 'GoogleWebRTC'
 
   pod 'SignalCoreKit', git: 'https://github.com/signalapp/SignalCoreKit.git', testspecs: ["Tests"]
   # pod 'SignalCoreKit', path: '../SignalCoreKit', testspecs: ["Tests"]

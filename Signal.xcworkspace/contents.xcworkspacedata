@@ -1,6 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:WebRTC"
+      name = "WebRTC">
+      <Group
+         location = "group:Build"
+         name = "Build">
+         <Group
+            location = "group:WebRTC.framework"
+            name = "WebRTC.framework">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <FileRef
+               location = "group:build_env.txt">
+            </FileRef>
+            <Group
+               location = "group:Headers"
+               name = "Headers">
+               <FileRef
+                  location = "group:RTCI420Buffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCPeerConnectionFactoryOptions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpHeaderExtension.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCallbackLogger.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCNativeI420Buffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCryptoOptions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCameraVideoCapturer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCSessionDescription.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpCodecParameters.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoCapturer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoderVP8.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIDevice+RTCDevice.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCVPixelBuffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCodecSpecificInfoH264.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCConfiguration.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMetricsSampleInfo.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoSource.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDispatcher.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCIceServer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMediaConstraints.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCSSLAdapter.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDefaultVideoDecoderFactory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCNativeMutableI420Buffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpFragmentationHeader.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCTracing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCIntervalRange.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMediaStreamTrack.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoTrack.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpParameters.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoViewShading.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoderFactory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMacros.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoRenderer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCertificate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpTransceiver.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMTLVideoView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCEAGLVideoView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderVP9.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderSettings.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMetrics.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpEncodingParameters.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpSender.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderQpThresholds.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCAudioTrack.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCYUVPlanarBuffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoFrame.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCFileVideoCapturer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCameraPreviewView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDataChannel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMutableYUVPlanarBuffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoCodecInfo.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCFileLogger.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCAudioSource.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDataChannelConfiguration.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderVP8.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoderFactoryH264.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCAudioSession.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMutableI420Buffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderH264.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCAudioSessionConfiguration.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoCodecConstants.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCPeerConnection.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCPeerConnectionFactory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMediaStream.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtpReceiver.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoderH264.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCFieldTrials.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCEncodedImage.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCLogging.h">
+               </FileRef>
+               <FileRef
+                  location = "group:WebRTC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCRtcpParameters.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCIceCandidate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDefaultVideoEncoderFactory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoDecoderVP9.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderFactoryH264.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoFrameBuffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCLegacyStatsReport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCH264ProfileLevelId.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCMediaSource.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCCodecSpecificInfo.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCVideoEncoderFactory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RTCDtmfSender.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:WebRTC">
+            </FileRef>
+            <Group
+               location = "group:Modules"
+               name = "Modules">
+               <FileRef
+                  location = "group:module.modulemap">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SignalRingRTC.framework"
+            name = "SignalRingRTC.framework">
+            <FileRef
+               location = "group:build_env.txt">
+            </FileRef>
+            <Group
+               location = "group:PrivateHeaders"
+               name = "PrivateHeaders">
+               <FileRef
+                  location = "group:ringrtc.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:SignalRingRTC">
+            </FileRef>
+            <Group
+               location = "group:Headers"
+               name = "Headers">
+               <FileRef
+                  location = "group:SignalRingRTC-Swift.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SignalRingRTC.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Modules"
+               name = "Modules">
+               <Group
+                  location = "group:SignalRingRTC.swiftmodule"
+                  name = "SignalRingRTC.swiftmodule">
+                  <FileRef
+                     location = "group:arm64-apple-ios.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:x86_64-apple-ios-simulator.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:x86_64-apple-ios-simulator.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:x86_64.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arm64.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:x86_64.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arm.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:armv7-apple-ios.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arm64-apple-ios.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arm.swiftmodule">
+                  </FileRef>
+                  <FileRef
+                     location = "group:armv7.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arm64.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:armv7-apple-ios.swiftdoc">
+                  </FileRef>
+                  <FileRef
+                     location = "group:armv7.swiftmodule">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:module.modulemap">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Signal.xcodeproj">
    </FileRef>
